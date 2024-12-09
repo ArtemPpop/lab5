@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar
 
 class MainActivity : AppCompatActivity() {
 
-    // хранения текста
+  
     private var savedText: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
