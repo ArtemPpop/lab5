@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         val builder = AlertDialog.Builder(this)
         builder.setTitle("Reverse")
             .setView(dialogView)
-            .setPositiveButton("OK") { _, _ ->
+            .setPositiveButton("OK") { dialog, button ->
 
                 var inputText = inputEditText.text.toString()
 
